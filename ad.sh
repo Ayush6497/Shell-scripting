@@ -1,25 +1,26 @@
 #!/bin/bash
 
 
-package="Naughty"
+package="Divyam"
+good="ayush"
 
 install(){
 
-	name="Divyam"
+	name="madav"
 	echo "bht badmass"
-	echo "install ${1}"
+	echo " ${1} is very naughty boy"
 }
 
 
 function config(){
 	echo "config"
-	echo "config ${1}"
+	echo "config $2}"
 }
 #echo "${package}"
-echo "name is ${name}"
+echo " ${name}is very cute boy "
 install "${package}"
 echo "${name}"
 echo "${package}"
 
 
-config "config ${package}"
+config "config ${goog}"
