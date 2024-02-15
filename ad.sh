@@ -1,11 +1,12 @@
 #!/bin/bash
 
 
-package="nginx"
+package="Naughty"
 
 install(){
+
 	name="Divyam"
-	echo "ayush kumar"
+	echo "bht badmass"
 	echo "install ${1}"
 }
 
