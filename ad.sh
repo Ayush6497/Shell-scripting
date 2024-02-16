@@ -23,4 +23,9 @@ echo "${name}"
 echo "${package}"
 
 
-config "config ${goog}"
+config " ${good}"
+
+if [[ ${good,,} == "Ayush" ]];
+then
+	echo " he is ggod boy "
+fi
