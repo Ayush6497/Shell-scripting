@@ -2,6 +2,7 @@
 
 
 package="Naughty"
+merge="new merge"
 
 install(){
 
@@ -20,6 +21,5 @@ echo "name is ${name}"
 install "${package}"
 echo "${name}"
 echo "${package}"
-
-
 config "config ${package}"
+echo " ayush is add new branch name is ${merge} ;
