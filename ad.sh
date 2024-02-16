@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+<<comments
 package="Naughty"
 merge="new merge"
 
@@ -21,5 +21,18 @@ echo "name is ${name}"
 install "${package}"
 echo "${name}"
 echo "${package}"
+<<<<<<< HEAD
 config "config ${package}"
 echo " ayush is add new branch name is ${merge} ;
+
+
+
+config " ${good}"
+
+if [[ ${good,,} == "Ayush" ]];
+then
+	echo " he is ggod boy "
+fi
+
+echo " add this commit 1 to master " 
+comments
