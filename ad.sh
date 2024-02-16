@@ -29,3 +29,5 @@ if [[ ${good,,} == "Ayush" ]];
 then
 	echo " he is ggod boy "
 fi
+
+echo " add this commit 1 to master " 
